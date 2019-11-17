@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\admin\desktop\opengl-3dmodelviewer-master\glfw\relative linking\glapp\glapp\empaquetado.h(41): warning C4244: 'argumento': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\glfw\relative linking\glapp\glapp\main.cpp(47): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  GLApp.vcxproj -> C:\Users\Admin\Desktop\OpenGL-3DModelViewer-master\GLFW\Relative Linking\GLApp\Debug\GLApp.exe
