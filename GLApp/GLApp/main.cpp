@@ -25,7 +25,7 @@ int main(void) {
 	if (!glfwInit()) {
 		return -1;
 	}
-
+	srand(time(NULL));
 	// Create a windowed mode window and its OpenGL context
 	window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Hello World", NULL, NULL);
 
@@ -127,7 +127,7 @@ void DrawCube(Caja caja) {
 
 
 	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-	glColor3ub(150,100,100);
+	glColor3ub(caja.R,caja.G,caja.B);
 	glEnableClientState(GL_VERTEX_ARRAY);
 	glVertexPointer(3, GL_FLOAT, 0, caja.vertices);
 
